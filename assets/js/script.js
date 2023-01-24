@@ -2,7 +2,7 @@
 
 
 function getApi() {   
-    let requestUrl = 'https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={7d42be71401c1c754071f1f99b1fa230}';
+    let requestUrl = 'https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={API key}';
   
     fetch(requestUrl)
     .then(function (response) {
